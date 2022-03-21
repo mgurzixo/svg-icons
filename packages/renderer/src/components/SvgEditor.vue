@@ -1,5 +1,5 @@
 <template>
-    <div id="container" style="width: 99.5vw; height: 100vh"></div>
+    <div id="container" style="width: 100vw; height: 100vh"></div>
 </template>
 
 <script setup>
@@ -39,6 +39,6 @@ onMounted(() => {
 </script>
 <style>
 #sidepanel_handle {
-    margin-left: -6px !important;
+    margin-left: -7px !important;
 }
 </style>
