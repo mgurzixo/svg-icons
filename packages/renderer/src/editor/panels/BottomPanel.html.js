@@ -1,3 +1,4 @@
+export default `
 <div id="tools_bottom">
     <!-- Zoom buttons -->
     <se-zoom id="zoom" src="zoom.svg" title="Change zoom level" inputsize="40px">
@@ -17,7 +18,7 @@
     <se-spin-input id="stroke_width" min=0 max=99 step=1 title="properties.stroke_width" label=""></se-spin-input>
     <se-select id="stroke_style" title="properties.stroke_style" label="" width="22px" height="22px"
       options="&#8212;,...,- -,- .,- .."
-      values="none::2,2::5,5::5,2,2,2::5,2,2,2,2,2">     
+      values="none::2,2::5,5::5,2,2,2::5,2,2,2,2,2">
     </se-select>
     <se-list id="stroke_linejoin" title="properties.linejoin_miter" label="" width="22px" height="22px">
       <se-list-item id="linejoin_miter" value="miter" src="linejoin_miter.svg" title="properties.linejoin_miter" img-height="22px"></se-list-item>
@@ -32,3 +33,4 @@
     <se-spin-input size="3" id="opacity" min=0 max=100 step=5 title="properties.opacity" src="opacity.svg"></se-spin-input>
     <se-palette id="palette"></se-palette>
   </div>
+  `;

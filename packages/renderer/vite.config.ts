@@ -28,11 +28,15 @@ export default defineConfig({
         ),
     ],
     base: "./",
+    optimizeDeps: {
+        include: [],
+    },
     resolve: {
         alias: {
             "@render": join(__dirname, "src/render"),
             "@main": join(__dirname, "src/main"),
             "@common": join(__dirname, "src/common"),
+            "@editor": join(__dirname, "src/editor"),
         },
     },
     build: {

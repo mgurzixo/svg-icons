@@ -1,3 +1,4 @@
+export default `
 <style>
     :not(:defined) {
         display: none;
@@ -75,3 +76,4 @@
         </form>
     </div>
 </elix-dialog>
+`;

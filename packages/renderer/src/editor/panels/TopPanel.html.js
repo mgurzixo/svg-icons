@@ -1,3 +1,4 @@
+export default `
 <div id="tools_top">
   <div id="title_panel">
     <p>untitled.svg</p>
@@ -206,3 +207,4 @@
   </div> <!-- path_node_panel -->
   <div id="cur_context_panel"></div>
 </div>
+`;

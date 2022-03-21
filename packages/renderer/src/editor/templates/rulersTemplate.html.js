@@ -1,3 +1,4 @@
+export default `
 <style>
   /* Rulers
 ——————————————————————————————————————*/
@@ -43,3 +44,4 @@
     <canvas width="15"></canvas>
   </div>
 </div>
+`;

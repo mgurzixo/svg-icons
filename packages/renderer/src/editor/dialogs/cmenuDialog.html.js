@@ -1,18 +1,19 @@
+export default `
 <style>
     .contextMenu {
         position: absolute;
         z-index: 99999;
-        border: solid 1px rgba(0, 0, 0, .33);
-        background: rgba(255, 255, 255, .95);
+        border: solid 1px rgba(0, 0, 0, 0.33);
+        background: rgba(255, 255, 255, 0.95);
         padding: 5px 0;
         margin: 0px;
         display: none;
         font: 12px/15px Lucida Sans, Helvetica, Verdana, sans-serif;
         border-radius: 5px;
         -moz-border-radius: 5px;
-        -moz-box-shadow: 2px 5px 10px rgba(0, 0, 0, .3);
-        -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, .3);
-        box-shadow: 2px 5px 10px rgba(0, 0, 0, .3);
+        -moz-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+        -webkit-box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
     }
 
     .contextMenu li {
@@ -57,7 +58,7 @@
     }
 
     .contextMenu li.separator {
-        border-top: solid 1px #E3E3E3;
+        border-top: solid 1px #e3e3e3;
         padding-top: 5px;
         margin-top: 5px;
     }
@@ -115,3 +116,4 @@
         </a>
     </li>
 </ul>
+`

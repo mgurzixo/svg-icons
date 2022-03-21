@@ -1,3 +1,4 @@
+export default `
 <style>
     .contextMenu {
         position: absolute;
@@ -68,3 +69,4 @@
     <li><a href="#merge_down" id="se-merge-down">#{svgEditor.i18next.t('layers.merge_down')}</a></li>
     <li><a href="#merge_all" id="se-merge-all">#{svgEditor.i18next.t('layers.merge_all')}</a></li>
 </ul>
+`;

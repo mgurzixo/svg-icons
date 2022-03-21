@@ -1,3 +1,4 @@
+export default `
 <div id="sidepanels">
     <se-text id="sidepanel_handle" title="ui.panel_action" text="ui.panel"></se-text>
     <div id="sidepanel_content">
@@ -24,3 +25,4 @@
         </div>
     </div>
 </div>
+`;

@@ -1,3 +1,4 @@
+export default `
 <style>
     :not(:defined) {
         display: none;
@@ -112,3 +113,4 @@
         </fieldset>
     </div>
 </elix-dialog>
+`;

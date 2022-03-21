@@ -1,11 +1,12 @@
 <template>
-    <div id="container" style="width: 100%; height: 100vh"></div>
+    <div id="container" style="width: 99.5vw; height: 100vh"></div>
 </template>
 
 <script setup>
 /* globals canvas */
 import SvgCanvas from "../svgcanvas/svgcanvas.js";
 import Editor from "../editor/Editor.js";
+import svgedit_css from "@editor/svgedit.css";
 import { ref, onMounted /* nextTick */ } from "vue";
 
 onMounted(() => {
@@ -36,3 +37,8 @@ onMounted(() => {
     }
 });
 </script>
+<style>
+#sidepanel_handle {
+    margin-left: -6px !important;
+}
+</style>

@@ -1,3 +1,4 @@
+export default `
 <div id="tools_left">
     <se-button id="tool_select" title="tools.mode_select" src="select.svg"></se-button>
     <se-button id="tool_zoom" title="tools.mode_zoom" src="zoom.svg" shortcut="Z"></se-button>
@@ -17,3 +18,4 @@
     <se-button id="tool_text" title="tools.mode_text" src="text.svg" shortcut="T"></se-button>
     <se-button id="tool_image" title="tools.mode_image" src="image.svg"></se-button>
 </div>
+`;

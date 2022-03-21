@@ -1,3 +1,4 @@
+export default `
 <style>
     #dialog_content {
         margin: 10px 10px 5px 10px;
@@ -64,3 +65,4 @@
         </div>
     </div>
 </elix-dialog>
+`;
